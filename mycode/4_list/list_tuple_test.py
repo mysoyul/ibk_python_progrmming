@@ -41,4 +41,15 @@ a,b = swap(10,20)
 print(a)
 print(b)
 
+#문자열 타입 List 선언
+cat_list = list('cat')
+print(cat_list)
 
+birth_day = "2021/11/16"
+birth_list = birth_day.split("/")
+print(birth_list)
+print('2021' in birth_list)
+print('2021' not in birth_list)
+
+if '2021' not in birth_list:
+    print('not found')
